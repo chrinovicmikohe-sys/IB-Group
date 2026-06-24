@@ -1,0 +1,27 @@
+{
+  "name": "Imperial Building Group",
+  "short_name": "Imperial Bâtiment",
+  "description": "Construction & rénovation haut de gamme à Goma, RDC - Imperial Building Group",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#f6efe3",
+  "theme_color": "#b91c1c",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "Photos/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "Photos/logo.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ],
+  "lang": "fr",
+  "categories": ["construction", "business", "renovation"],
+  "prefer_related_applications": false
+}
