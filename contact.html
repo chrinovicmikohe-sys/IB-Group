@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="page_title_contact">Contact - Imperial Building Group</title>
+  <meta name="description" content="Contactez Imperial Building Group pour vos projets de construction, rénovation ou formation à Goma, RDC. Demandez un devis gratuit." />
+  <meta property="og:title" content="Contact - Imperial Building Group" />
+  <meta property="og:description" content="Contactez-nous pour discuter de votre projet de construction ou rénovation." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" href="Photos/logo.svg" type="image/svg+xml" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">Imperial Building Group<span class="brand-slogan">Vision, Précision, Longevité</span></a>
+      <button class="nav-toggle" aria-label="Ouvrir le menu" type="button"></button>
+      <nav class="site-nav">
+        <a href="index.html#home" data-i18n="nav_home">Accueil</a>
+        <a href="gallery.html" data-i18n="nav_gallery">Galerie</a>
+        <a href="index.html#apropos" data-i18n="nav_about">À propos</a>
+        <a href="contact.html" data-i18n="nav_contact">Contact</a>
+        <a href="careers.html" data-i18n="nav_careers">Carrières</a>
+        <a href="blog/index.html" data-i18n="nav_blog">Blog</a>
+        <a href="devis.html" data-i18n="nav_quote">Calculateur de devis</a>
+      </nav>
+      <div class="lang-switcher">
+        <button id="lang-toggle-btn" class="lang-toggle" aria-haspopup="true" aria-expanded="false">FR</button>
+        <ul class="lang-menu" role="menu">
+          <li><button type="button" class="lang-item" data-lang="fr" role="menuitem">FR</button></li>
+          <li><button type="button" class="lang-item" data-lang="en" role="menuitem">EN</button></li>
+          <li><button type="button" class="lang-item" data-lang="ln" role="menuitem">LN</button></li>
+          <li><button type="button" class="lang-item" data-lang="es" role="menuitem">ES</button></li>
+          <li><button type="button" class="lang-item" data-lang="zh" role="menuitem">ZH</button></li>
+          <li><button type="button" class="lang-item" data-lang="sw" role="menuitem">SW</button></li>
+        </ul>
+      </div>
+      <div class="header-socials" aria-label="Réseaux sociaux">
+        <a class="social-link facebook" href="https://facebook.com/imperialbuilding20" target="_blank" rel="noreferrer noopener" aria-label="Facebook">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M22 12C22 6.477 17.523 2 12 2S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.99H7.898v-2.888h2.54V9.845c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.462h-1.26c-1.242 0-1.63.772-1.63 1.562v1.875h2.773l-.443 2.888h-2.33v6.99C18.343 21.128 22 16.991 22 12z" fill="currentColor"/>
+          </svg>
+        </a>
+        <a class="social-link instagram" href="https://instagram.com/imperialbuilding20" target="_blank" rel="noreferrer noopener" aria-label="Instagram">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5z" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7z" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M17.5 6.5h.01" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <a class="social-link tiktok" href="https://www.tiktok.com/@imperialbuilding20" target="_blank" rel="noreferrer noopener" aria-label="TikTok">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M16.5 3v8.5a4.5 4.5 0 1 1-4.5-4.5V3a7 7 0 1 0 7 7h-1.5A5.5 5.5 0 1 1 16.5 3z" fill="currentColor"/>
+          </svg>
+        </a>
+        <a class="social-link twitter" href="https://twitter.com/imperialbuilding20" target="_blank" rel="noreferrer noopener" aria-label="Twitter">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M22 5.92c-.7.31-1.45.53-2.24.62a3.9 3.9 0 0 0 1.7-2.15c-.76.45-1.6.78-2.5.96A3.87 3.87 0 0 0 12.5 8.5c0 .3.03.6.1.88-3.22-.16-6.08-1.7-8-4.04-.34.58-.53 1.25-.53 1.97 0 1.36.69 2.56 1.74 3.27a3.84 3.84 0 0 1-1.75-.48v.05c0 1.9 1.36 3.48 3.17 3.84-.33.09-.68.14-1.05.14-.26 0-.52-.02-.77-.07.52 1.6 2.03 2.77 3.82 2.8A7.74 7.74 0 0 1 3 19.54 10.9 10.9 0 0 0 8.28 21c6.44 0 9.97-5.35 9.97-9.99v-.45c.68-.5 1.26-1.12 1.72-1.84-.62.28-1.28.47-1.97.55z" fill="currentColor"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section contact" id="contact-section">
+      <div id="snowflakes-container"></div>
+      <div class="container contact-card">
+        <h1 data-i18n="contact_title">Contact</h1>
+        <p data-i18n="contact_text">Envoyez un message pour discuter de votre projet.</p>
+        <p class="contact-email">Email: <a href="mailto:imperialbuilding20@gmail.com">imperialbuilding20@gmail.com</a></p>
+        <p class="contact-email">Tél: <a href="tel:+243978172514">+243 978 172 514</a></p>
+        <form id="contact-form">
+          <label>
+            <span data-i18n="label_name">Nom</span>
+            <input type="text" name="name" data-i18n-placeholder="placeholder_name" placeholder="Votre nom" required pattern=".{2,}" title="Au moins 2 caractères" />
+          </label>
+          <label>
+            <span data-i18n="label_email">Email</span>
+            <input type="email" name="email" data-i18n-placeholder="placeholder_email" placeholder="Votre email" required />
+          </label>
+          <label>
+            <span data-i18n="label_subject">Sujet</span>
+            <select name="subject" data-i18n="contact_subject_options">
+              <option value="Devis" data-i18n="contact_subject_quote">Demande de devis</option>
+              <option value="Information" data-i18n="contact_subject_info">Demande d'information</option>
+              <option value="Projet" data-i18n="contact_subject_project">Projet de construction</option>
+              <option value="Renovation" data-i18n="contact_subject_renovation">Projet de rénovation</option>
+              <option value="Formation" data-i18n="contact_subject_training">Formation</option>
+              <option value="Autre" data-i18n="contact_subject_other">Autre</option>
+            </select>
+          </label>
+          <label>
+            <span data-i18n="label_message">Message</span>
+            <textarea name="message" rows="5" data-i18n-placeholder="placeholder_message" placeholder="Votre message" required minlength="10"></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary" data-i18n="contact_send">Envoyer</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p data-i18n="footer_text">© 2026 Imperial Building Group. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

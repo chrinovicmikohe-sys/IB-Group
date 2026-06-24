@@ -1,0 +1,11 @@
+# robots.txt for Imperial Building Group
+# https://imperialbuildinggroup.com
+
+User-agent: *
+Allow: /
+Disallow: /legal/
+Disallow: /blog/admin/
+
+Sitemap: https://imperialbuildinggroup.com/sitemap.xml
+
+# Crawl-delay: 10
